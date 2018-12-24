@@ -1,0 +1,13 @@
+version: "3"
+services:
+  postgres9:
+    image: postgres:9.6
+    restart: "no"
+    environment:
+      - POSTGRES_USER=aldi
+      - POSTGRES_PASSWORD=aldi
+    volumes:
+      - ./data:/data
+    ports:
+      - 5432:5432
+
