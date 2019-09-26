@@ -10,4 +10,8 @@ services:
       - ./data:/data
     ports:
       - 5432:5432
-
+  redis:
+    image: redis
+    restart: "no"
+    ports:
+      - 6379:6379
