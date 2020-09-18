@@ -1,1 +1,1 @@
-docker-compose exec postgres9 psql -U aldi $1
+docker-compose exec postgres12 psql -U aldi $1
