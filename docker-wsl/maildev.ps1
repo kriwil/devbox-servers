@@ -1,0 +1,1 @@
+docker run --name maildev -p 1080:80 -p 1025:25 -d maildev/maildev

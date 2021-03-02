@@ -1,0 +1,1 @@
+docker run --name pg12 -e POSTGRES_USER=aldi -e POSTGRES_PASSWORD=aldi -p 5432:5432/tcp -d postgres:12
